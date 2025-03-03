@@ -3,7 +3,7 @@
 Los ejercicios están disponibles en la siguiente dirección:
 
 ```
-POO2025/src
+POO-2025-Java/POO2025/src/
 ```
 
 Gracias.
