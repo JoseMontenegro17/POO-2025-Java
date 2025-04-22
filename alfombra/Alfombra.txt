@@ -1,0 +1,36 @@
+8.a.10.Ejercicio Alfombras
+• Crear una clase Alfombra, con atributos privados String color, int precioMetro.
+• Crear clase AlfombraRedonda (hereda de Alfombra) con atributo int radio
+• Crear clase AlfombraCuadrada (hereda de Alfombra) con atributo int lado
+JYOC - JAVA - EJERCICIOS 67
+
+• Hace Constructores, getters y setters para todas las clases
+• Hacer una interfaz IAlfombras con los métodos
+- double calcularSuperficie() calcula la superficie de la alfombra
+- double calcularPrecio() que calcula el precio de la alfombra (que será la
+superficie*precioMetro)
+• Aplica la interfaz a la clase Alfombra, y estos métodos en la clase Alfombra serán también
+abstractos. Escribir el contenido real de los métodos en donde corresponda.
+Hacer un programa Main que cree objetos de las dos clases hijas y pruebe los métodos
+MEJORA 1:
+• Crear la clase Habitacion estos atributos
+String nombre
+Alfombra[] alfombras
+• Hacer getters, setters y constructor (solo con el nombre, el array se crea siempre vacío al crear un
+objeto)
+• Hacer un método en la clase Habitacion que sea boolean agregarAlfombra(Alfombra alf) y que
+introduzca alfombras en la habitacion.
+• Hacer un método en la clase Habitacion que calcule el precio de todas las alfombras de la
+habitación.
+• Hacer un método en la clase Habitacion que calcule el precio de todas las alfombras cuadradas de
+la habitación.
+• En el programa Main crear una habitación, rellenar su contenido y probar sus dos métodos.
+MEJORA 2:
+• Tras la Mejora 1, crear la clase Mansion, que tiene un único atributo:
+Habitacion[] arrayHabitaciones
+• Hacer un método en la clase Mansion que sea boolean agregarHabitacion(Habitacio hab) y que
+introduzca habitaciones en la mansion.
+• Hacer un método en la clase mansión que calcule el precio de todas las alfombras de la mansión.
+• Hacer un método en la clase mansión que calcule el precio de todas las alfombras cuadradas de la
+mansión.
+• En el programa Main crear una mansión, rellenar su contenido y probar sus dos métodos.
